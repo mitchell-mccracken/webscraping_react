@@ -12,7 +12,6 @@ let baseURL;
 baseURL = 'http://localhost:3003'
 console.log('current base URL: ' , baseURL)
 
-
 export default class App extends Component {
   constructor(props){
     super(props)
