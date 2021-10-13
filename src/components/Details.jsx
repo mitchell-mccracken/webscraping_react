@@ -4,7 +4,11 @@ import '../my.css';
 
 let baseURL;
 
-baseURL = 'http://localhost:3003'
+if(process.env.NODE_ENV === 'development') {
+  baseURL = 'http://localhost:3003'
+} else {
+  baseURL = 'https://piratesws.herokuapp.com'
+}
 console.log('current base URL: ' , baseURL)
 
 class Details extends Component{
