@@ -1,7 +1,7 @@
 import {Component} from 'react'
 import '../App.css'
 import '../my.css';
-import {Scatter} from 'react-chartjs-2'
+// import {Scatter} from 'react-chartjs-2'
 import Plot from 'react-plotly.js'
 
 let baseURL;

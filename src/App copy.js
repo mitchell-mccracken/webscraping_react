@@ -1,10 +1,10 @@
-import { div } from 'prelude-ls';
+// import { div } from 'prelude-ls';
 import React, {Component} from 'react'
 import './App.css';
 import './my.css';
 import Games from './components/Games'
 import Details from './components/Details';
-import TicketListing from './components/TicketListing'
+// import TicketListing from './components/TicketListing'
 import CopyTicketListing from './components/CopyTicketListing'
 
 let baseURL;
