@@ -2,7 +2,7 @@ import {Component} from 'react'
 import '../App.css'
 import '../my.css';
 // import {Scatter} from 'react-chartjs-2'
-import Plot from 'react-plotly.js'
+// import Plot from 'react-plotly.js'
 
 let baseURL;
 
@@ -47,7 +47,7 @@ class CopyTicketListing extends Component{
                 <h3>Max Price: ${this.props.ticketDetails.max_price}</h3>
                 <h3>Max Range: ${this.props.ticketDetails.price_range}</h3>
                 <div id='app'>
-                <Plot 
+                {/* <Plot 
                     data={[
                         {
                             x: this.props.ticketDetails.date_time,
@@ -62,7 +62,7 @@ class CopyTicketListing extends Component{
                         // height: 240, 
                         title: 'Ticket Prices'
                     }}
-                />
+                /> */}
                 <br></br>
                 <button onClick={this.props.backToTickets} >Back to Tickets</button>
 
