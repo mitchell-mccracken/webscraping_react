@@ -47,6 +47,7 @@ class CopyTicketListing extends Component{
                 <h3>Max Price: ${this.props.ticketDetails.max_price}</h3>
                 <h3>Max Range: ${this.props.ticketDetails.price_range}</h3>
                 <div id='app'>
+                {/* I removed the Plot section in order to deploy on heroku, with the Plot setion I believe it required too much memory and was over the heroku free tier limit */}
                 {/* <Plot 
                     data={[
                         {
