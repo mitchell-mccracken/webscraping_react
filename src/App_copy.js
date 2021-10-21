@@ -16,7 +16,7 @@ if(process.env.NODE_ENV === 'development') {
   baseURL = 'https://piratesws.herokuapp.com'
 }
 
-// baseURL = 'https://piratesws.herokuapp.com'
+baseURL = 'https://piratesws.herokuapp.com'
 
 // baseURL = 'http://localhost:3003'
 console.log('current base URL: ' , baseURL)
